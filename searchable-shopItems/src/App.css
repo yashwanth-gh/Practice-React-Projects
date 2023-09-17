@@ -1,0 +1,31 @@
+
+.dropdown{
+    position:absolute;
+    top: 8.2rem;
+    right: 17rem;
+    background-color: rgb(1, 0, 52);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.dropdown::before{
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+    transform: rotate(45deg);
+    background-color: rgb(1, 0, 52);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    width: 17px;
+    height: 17px;
+}
+li{
+    margin: 0.5rem 0;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="search"]{
+color: #080034;
+}
